@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday ✨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- OVERLAY -->
+<div id="overlay">
+  <div class="overlay-content">
+    <h2>Happy Birthday ✨</h2>
+    <p>A Special Celebration Awaits</p>
+    <button id="startBtn">Open Site</button>
+  </div>
+</div>
+
+<!-- AUDIO -->
+<audio id="bgMusic" loop>
+  <source src="Birthday-Pauziah.mp3" type="audio/mpeg">
+</audio>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="card">
+    <h1>Happy Birthday</h1>
+    <h2>Neng Riska Pauziah</h2>
+    <div class="gold-line"></div>
+    <p>
+      May this new year of your life bring you peace, success, and endless blessings.
+    </p>
+    <div id="dateTime"></div>
+  </div>
+</section>
+
+<!-- SLIDER UCAPAN -->
+<section class="wishes-section">
+  <h3>Warm Wishes From Friends</h3>
+
+  <div class="slider">
+    <button class="nav prev">&#10094;</button>
+
+    <div class="slides" id="slides">
+      <div class="slide">
+        <p>"Selamat ulang tahun. Semoga senantiasa diberi kesehatan, kebahagiaan, dan kesuksesan dalam setiap langkah ke depan."</p>
+        <span>- Dinosaurus</span>
+      </div>
+
+      <div class="slide">
+        <p>"Wish you endless joy and blessings."</p>
+        <span>- Andi</span>
+      </div>
+
+      <div class="slide">
+        <p>"Stay kind and keep shining ✨"</p>
+        <span>- Sarah</span>
+      </div>
+    </div>
+
+    <button class="nav next">&#10095;</button>
+  </div>
+</section>
+
+<footer>
+  <p>Created By Dinosaurus</p>
+</footer>
+
+<canvas id="confettiCanvas"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
